@@ -14,6 +14,7 @@ public class Crime {
     private Date mDate;
     private boolean mSolved;
 
+
     public Crime() {
         mId = UUID.randomUUID();
         mDate = new Date();
@@ -46,4 +47,5 @@ public class Crime {
     public void setSolved(boolean mSolved) {
         this.mSolved = mSolved;
     }
+    
 }
