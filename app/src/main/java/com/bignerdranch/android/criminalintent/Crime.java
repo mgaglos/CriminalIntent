@@ -13,6 +13,7 @@ public class Crime {
     private String mTitle;
     private Date mDate;
     private boolean mSolved;
+    private boolean mRequiresPolice;
 
 
     public Crime() {
@@ -47,5 +48,8 @@ public class Crime {
     public void setSolved(boolean mSolved) {
         this.mSolved = mSolved;
     }
-    
+
+    public boolean arePoliceRequired() { return mRequiresPolice; }
+
+    public void setPoliceRequirement(boolean mRequiresPolice) { this.mRequiresPolice = mRequiresPolice; }
 }

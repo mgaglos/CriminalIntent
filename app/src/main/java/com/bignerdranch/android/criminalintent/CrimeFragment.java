@@ -21,6 +21,9 @@ import static android.widget.CompoundButton.*;
 
 public class CrimeFragment extends Fragment {
 
+
+
+
     private Crime mCrime;
     private EditText mTitleField;
     private Button mDateButton;
